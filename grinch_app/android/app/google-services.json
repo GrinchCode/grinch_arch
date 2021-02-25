@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611467141702",
+    "project_id": "grinchcode-dev",
+    "storage_bucket": "grinchcode-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611467141702:android:8502a775a4c71bc5c2a047",
+        "android_client_info": {
+          "package_name": "com.grinchcode.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611467141702-4s5unf59icv9e11hc8ifc77vj949k1io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4n9HkDaDYg8eGMA20lOZtS9sheiAVHzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611467141702-4s5unf59icv9e11hc8ifc77vj949k1io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

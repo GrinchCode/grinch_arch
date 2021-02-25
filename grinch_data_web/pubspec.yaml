@@ -1,0 +1,35 @@
+name: grinch_data_web
+description: A web origin of data
+
+publish_to: none
+
+version: 0.0.1
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  grinch_data_platform_interface:
+    path: ../grinch_data_platform_interface
+
+  firebase: 7.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  pedantic: 1.10.0-nullsafety.3
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: GrinchDataWeb
+        fileName: Grinch_data_web.dart
